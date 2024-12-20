@@ -46,7 +46,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 Developed by:ABISHA RANI S
 RegisterNumber:24900748
 */
-...
+```
 module jkff(j,k,clk,q,qbar);
 input j,k,clk;
 output reg q,qbar;
@@ -62,7 +62,7 @@ q<=(j&~q)|(~k&q);
 qbar<=~q;
 end
 endmodule
-...
+```
 **RTL LOGIC FOR FLIPFLOPS**
 ![Screenshot (30)](https://github.com/user-attachments/assets/c8b597ae-0d6e-4813-a501-5de0f2fff780)
 
